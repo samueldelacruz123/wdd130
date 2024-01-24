@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color:darkred;
+    margin: auto;
+}
+
+p{
+    padding: 0;
+}
+
+
+main p {
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+}
+main h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+main img {
+    width: 250px;
+    height: auto;
+    border: 0.6em solid white;
+    padding: 0px;
+    box-shadow: 0px 0px 30px;
+    float: right;
+}
+main {
+    max-width: 840px;
+}
+nav {
+    background-color: brown;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+ul a {
+    color:white;
+    padding: 10px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+aside{
+    width: 20rem;
+    text-align: center;
+    margin: 1rem;
+    border: 0.6em solid white;
+    padding: 1rem;
+    background-color: brown;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+aside h2 {
+    position: absolute;
+    bottom: auto;
+    top: auto;
+    left: 5rem;
+    color: white;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    box-shadow: 0px 0px 5px black;
+    border: 0.2em solid white;
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid white;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    color: white;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: brown;
+    color: white;
+}
