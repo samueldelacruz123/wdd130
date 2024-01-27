@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+:root {
+    --primary--color: #423E37;
+    --secondary-color: #E3B23C;
+    --accent1-color: #EDEBD7;
+    --accent2-color: #30BAFF;
+
+    --heading-font: 'Heebo', sans-serif;
+    --paragraph-font: 'Heebo', sans-serif;
+
+    --nav-background-color: #423E37;
+    --nav-link-color: #E3B23C;
+    --nav-hover-link-color: #EDEBD7;
+    --nav-hover-background-color: #30BAFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+
+p {
+    font-family: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--paragraph-font);
+}
+
+main section img {
+    width: 500px;
+    height: auto;
+}
+
+
+/*Classes*/
+
+.sociallinks a, nav a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%; 
+    background-color: rgba(66, 31, 1, 0.644);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+.hero article {
+    position: absolute;
+    top: 550px;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article p {
+    background-color: rgba(66, 31, 1, 0.644);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero article img {
+    width: 180px;
+    float: right;
+    margin: 30px;
+}
+
