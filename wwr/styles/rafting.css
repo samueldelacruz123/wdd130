@@ -118,7 +118,7 @@ figcaption {
     position: absolute;
     display: flex;
     flex-direction: row-reverse;
-    align-self: flex-end 150px;
+    align-self: center;
     background-color: rgba(66, 31, 1, 0.644);
 }
 
