@@ -15,7 +15,11 @@
     --nav-hover-background-color: #30BAFF;
 }
 
-h1 {
+body {
+    background-color: var(--primary--color);
+}
+
+h1, h2 {
     font-family: var(--primary-color);
     color: var(--secondary-color);
     font-family: var(--heading-font);
@@ -27,9 +31,58 @@ p {
     font-family: var(--paragraph-font);
 }
 
+header {
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header img {
+    width: 200px;
+    grid-column: 1/1;
+    justify-self: flex-end;
+}
+
+nav {
+    display: flex;
+    background-color: var(--primary--color);
+    grid-template-columns: repeat(4, auto);
+    justify-self: center;
+    grid-column: 2/3;
+}
+
+nav a {
+    display: block;
+    padding: 1rem 3rem 1rem 3rem;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
 main section img {
     width: 500px;
     height: auto;
+}
+
+figcaption {
+    font-family: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--paragraph-font);
 }
 
 
@@ -41,39 +94,54 @@ main section img {
 
 .hero {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .hero h1 {
     position: absolute;
-    top: 250px;
-    left: 0;
     width: 100%; 
     background-color: rgba(66, 31, 1, 0.644);
     padding: 20px;
     border-radius: 10px;
-    text-align: center; 
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    top: 30%;
+    z-index: 1;
 }
 
 .hero article {
     position: absolute;
-    top: 550px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: flex-end 150px;
+    background-color: rgba(66, 31, 1, 0.644);
 }
 
-.hero img{
+.hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
 .hero article p {
-    background-color: rgba(66, 31, 1, 0.644);
     padding: 20px;
     border-radius: 10px;
 }
 
 .hero article img {
-    width: 180px;
-    float: right;
-    margin: 30px;
+    width: 200px;
+    position: relative;
+    object-fit: cover;
 }
 
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
