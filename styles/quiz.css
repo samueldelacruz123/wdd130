@@ -1,0 +1,46 @@
+main {
+    background-color: gainsboro;
+    max-width: 40%;
+    display: block;
+    margin: auto;
+    
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  width: 45%;
+  padding: 10px;
+  margin: 15px;
+  box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: left;
+}
+
+input,
+textarea,
+select {
+    width: 95%;
+}
+
+input[type="button"] {
+    background-color: darkblue;
+    color: white;
+}
