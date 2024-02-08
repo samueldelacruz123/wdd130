@@ -196,10 +196,6 @@ fieldset {
     left: 60px;
 }
 
-.contact-form input {
-    grid-column: 1fr;
-}
-
 .contact-form label span {
     flex-grow: 1;
 }
