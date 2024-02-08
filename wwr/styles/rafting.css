@@ -85,6 +85,13 @@ figcaption {
     font-family: var(--paragraph-font);
 }
 
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 
 /*Classes*/
 
@@ -139,9 +146,84 @@ figcaption {
     object-fit: cover;
 }
 
-section {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 20px;
+.company-info {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
 }
+
+.title {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.employees img {
+    max-width: 500px;
+}
+
+.contact-form {
+    background-color: gainsboro;
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: left;
+}
+
+.contact-form label {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+}
+
+.contact-form input[type="checkbox"] {
+    position: relative;
+    left: 60px;
+}
+
+.contact-form input {
+    grid-column: 1fr;
+}
+
+.contact-form label span {
+    flex-grow: 1;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    width: 45%;
+    padding: 10px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+input,
+textarea,
+select {
+    width: 95%;
+}
+
+input[type="button"] {
+    background-color: var(--primary--color);
+    color: var(--secondary-color);
+}
+
