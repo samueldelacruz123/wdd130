@@ -40,7 +40,7 @@ select {
     width: 95%;
 }
 
-input[type="button"] {
+input[type="submit"] {
     background-color: darkblue;
     color: white;
 }
