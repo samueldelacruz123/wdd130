@@ -286,7 +286,7 @@ fieldset {
 }
 
 .booknow input[type="button"] {
-    width: 700px;
+    width: 100%;
     bottom: 250px;
     margin: auto;
     margin-top: 10%;
