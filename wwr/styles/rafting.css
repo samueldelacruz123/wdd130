@@ -385,6 +385,11 @@ a[href="trips.html"] input[type="button"] {
     border-radius: 10px;
 }
 
+#updateButton {
+    background-color: var(--primary--color);
+    color: var(--secondary-color);
+}
+
 a[href="images/wrr-wireframe.png"] {
     text-decoration: none;
     color: white;
