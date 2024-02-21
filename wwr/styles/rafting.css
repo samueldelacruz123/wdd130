@@ -163,6 +163,10 @@ td {
     text-decoration: none;
 }
 
+.sociallinks img {
+    width: 50px;
+}
+
 .hero {
     position: relative;
     display: flex;
@@ -280,25 +284,18 @@ fieldset {
     opacity: 0.4;
 }
 
-.booknow h1,
-.booknow input[type="button"] {
-    z-index: 1;
-}
-
 .booknow input[type="button"] {
     width: 100%;
-    bottom: 250px;
-    margin: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: 50px auto;
     font-size: 50px;
     font-weight: bold;
     background-color: var(--secondary-color);
     color: black;
-    padding: 20px 70px 20px 70px;
+    padding: 20px 200px 20px 200px;
 }
 
 .booknow h1{
+    z-index: 1;
     position: absolute;
     font-size: 100px;
     color: var(--nav-hover-link-color);
@@ -314,5 +311,82 @@ fieldset {
     max-width: 500px
 }
 
+.headingmessage {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
 
+.headingmessage img {
+    position: relative;
+    width: 100%;
+}
 
+.headingmessage h1 {
+    position: absolute;
+    z-index: 1;
+    font-size: 3em;
+    background-color: rgba(66, 62, 55, 0.7);
+    padding: 10px;
+    margin: px;
+    text-align: center;
+}
+
+a[href="trips.html"] {
+    text-align: center;
+    text-decoration: none;
+}
+
+a[href="trips.html"] input[type="button"] {
+    display: block;
+    width: 45%;
+    margin: 50px auto;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+.offerings {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.offerings img {
+    width: 500px;
+    flex-flow: row wrap;
+}
+
+.offeringsp {
+    margin: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.homepageform {
+    max-width: 800px;
+    margin: auto;
+    color: black;
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.subscribe {
+    text-align: center;
+    background-color: rgb(219, 52, 52);
+    padding: 0 10px 0 10px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+a[href="images/wrr-wireframe.png"] {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
