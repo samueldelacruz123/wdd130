@@ -357,7 +357,6 @@ a[href="trips.html"] input[type="button"] {
 
 .offerings img {
     width: 500px;
-    flex-flow: row wrap;
 }
 
 .offeringsp {
